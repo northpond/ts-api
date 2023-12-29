@@ -52,7 +52,7 @@ class AsyncClient(BaseClient):
             headers = {}
 
         async with httpx.AsyncClient() as client:
-            response = await client.post(url, headers=headers, params=params, data=data)
+            response = await client.post(url, headers=headers, params=params, json=data)
 
         return response
 

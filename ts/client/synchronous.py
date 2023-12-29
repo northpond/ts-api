@@ -85,7 +85,7 @@ class Client(BaseClient):
             headers = {}
 
         with httpx.Client() as client:
-            response = client.post(url, headers=headers, params=params, data=data)
+            response = client.post(url, headers=headers, params=params, json=data)
 
         return response
 
