@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "ts-api"
-version = "0.2.0"
+name = "npcm-ts-api"
+version = "0.2.1"
 description = "An unofficial wrapper for the TradeStation API."
 authors = ["Tyler Patterson <pattertj@duck.com>"]
 readme = "README.md"
